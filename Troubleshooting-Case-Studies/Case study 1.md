@@ -6,6 +6,8 @@ My Windows installation was not fully self-contained. The operating system was i
 
 This can cause problems if the drive containing the boot files is removed, fails, or is selected incorrectly in BIOS. I wanted the Windows drive to have its own EFI System Partition and boot files so it could boot independently in UEFI mode.
 
+<img width="749" height="756" alt="ee96bd63-3957-4c23-8ff0-ec76dfbb727a" src="https://github.com/user-attachments/assets/2b9d1bb4-21f4-44e9-b4bc-d5912a2889ab" />
+
 ## Symptoms
 
 * Windows Boot Manager was associated with a different drive from the main Windows installation.
